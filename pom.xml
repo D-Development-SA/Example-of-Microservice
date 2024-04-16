@@ -1,0 +1,16 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.technical.test</groupId>
+    <artifactId>Technical Test</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>CloudConfigServer</module>
+        <module>NamingService</module>
+        <module>IdentityService</module>
+        <module>WasteManagerAddressService</module>
+        <module>WasteManagerService</module>
+        <module>ApiGateway</module>
+    </modules>
+</project>
