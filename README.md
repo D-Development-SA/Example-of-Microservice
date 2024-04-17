@@ -12,6 +12,7 @@
 2. Open a console in the location
 3. Run one of these commands _mvn install_ or _mvn spring-boot:run_
 4. Wait for it to finish.
+Note: You must create a git repository in the configRepo folder for CloudConfigService to work.
 
 ## Description
 The purpose of this project is to create a series of microservices that communicate with each other where each one fulfills a single responsibility. User authentication is handled in a microservice that is consulted by the GateWay (the only one that has access to the other microservices). All are registered in NamingService (Eureka) except CloudConfigServer, which has the microservices configurations. The essential idea is to perform a CRUD to the WasteManager microservice that controls WasteManagerAddressService.
