@@ -53,7 +53,7 @@ Body:
   "name": "John Doe",
   "nif": "12345678A",
   "isEnabled": true,
-  "version": 1,
+  "version": 41,
   "wasteManagerAddressEntity": {
     "address": "123 Main St",
     "isEnabled": true,
