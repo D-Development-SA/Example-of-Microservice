@@ -15,7 +15,7 @@ import java.util.Random;
 @Table(name = "waste_center_authorization")
 public class WasteCenterAuthorizationEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
 

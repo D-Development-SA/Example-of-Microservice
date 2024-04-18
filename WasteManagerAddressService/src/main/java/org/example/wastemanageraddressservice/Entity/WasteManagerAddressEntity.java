@@ -16,7 +16,7 @@ import java.util.Date;
 @Table(name = "WasteManagerAddress")
 public class WasteManagerAddressEntity implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
 
